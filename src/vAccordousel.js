@@ -53,8 +53,6 @@
 				var newlySelected = $(this).attr("data-id");
 
 				if (newlySelected !== currentSelected) {
-					console.log("currentSelected = %s", currentSelected);
-
 					$("#" + currentSelected).animate({ width: "toggle" }, {
 						complete: function() {
 							$("div." + clickClass).hide();

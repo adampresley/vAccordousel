@@ -1,5 +1,38 @@
 # vAccordousel
-*A jQuery plugin for a vertical accordian carousel.*
+*A jQuery plugin for a vertical accordion carousel.*
+
+## Example Usage
+```
+<!-- Start vAccordousel markup -->
+<div id="accordouselContainer" style="width: 100%;" class="clearfix">
+	<h3><a href="#"><img src="cat1.jpg" style="width: 80px; height: 250px;" /></a></h3>
+	<div>
+		<img src="happy1.jpg" width="400" height="250" />
+	</div>
+
+	<h3><a href="#"><img src="cat2.jpg" style="width: 80px; height: 250px;" /></a></h3>
+	<div>
+		<img src="happy2.jpg" width="400" height="250" />
+	</div>
+
+	<h3><a href="#"><img src="cat3.jpg" style="width: 80px; height: 250px;" /></a></h3>
+	<div>
+		<img src="happy3.jpg" width="400" height="250" />
+	</div>
+</div>
+<!-- End vAccordousel markup -->
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="../src/vAccordousel.min.js"></script>
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		$("#accordouselContainer").vAccordousel();
+	});
+
+</script>
+```
 
 ### License
 Copyright 2012 Adam Presley. All rights reserved.
